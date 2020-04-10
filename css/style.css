@@ -14,7 +14,7 @@
   text-decoration: none;
   display: inline-flex;
   color: #ffffff;
-  background-color: #ff5f5f;
+  background-color: #c4302b;
   border-radius: 5px;
   border: 1px solid transparent;
   padding: 7px 10px 7px 10px;
@@ -85,11 +85,17 @@ body {
   width: 80%;
   outline: none;
   border-right: none;
+  color: #777777;
 }
 
 .searchSubmit {
   width: 20%;
   cursor: pointer;
+  background-color: #f7f7f7;
+}
+
+.searchSubmit i {
+  color: #777777;
 }
 
 /* Credits */
