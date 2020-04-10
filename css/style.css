@@ -54,7 +54,7 @@ body {
 
 /* Main Part */
 .container {
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto;
   height: 90%;
   display: flex;
@@ -64,7 +64,7 @@ body {
 }
 
 .logo {
-  width: 100%;
+  width: 70%;
   margin-bottom: 2rem;
 }
 
@@ -111,4 +111,30 @@ body {
   font-size: 2rem;
   margin-right: 1rem;
   color: #e1e1e1;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1000px) {
+  .container {
+    max-width: 70%;
+  }
+
+  .searchInput,
+  .searchSubmit {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .container {
+    max-width: 90%;
+    height: 80%;
+  }
+
+  .searchInput,
+  .searchSubmit {
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+  }
 }
